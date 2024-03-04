@@ -24,4 +24,16 @@ public interface Logics{
      * @return whether position row,col has the pawn
      */
     boolean hasPawn(int row, int col);
+
+    /**
+     * 
+     * @return position of knight
+     */
+    public Pair<Integer, Integer> getKnightPosition();
+
+    /**
+     * 
+     * @return position of the pawn
+     */
+    public Pair<Integer, Integer> getPawnPosition();
 }
