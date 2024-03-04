@@ -27,6 +27,7 @@ public class LogicsImpl implements Logics {
     	return this.pawn!=null && this.pawn.equals(pos) ? randomEmptyPosition() : pos;
     }
     
+	//Da implementare con strategy in un altra classe
 	@Override
 	public boolean hit(int row, int col) {
 		if (row<0 || col<0 || row >= this.size || col >= this.size) {
